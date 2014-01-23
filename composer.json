@@ -1,0 +1,25 @@
+{
+	"name": "thispagecannotbefound/silex-markdown-parser",
+	"type": "library",
+	"description": "Silex Service Provider for michelf's PHP Markdown library.",
+	"keywords": ["silex", "markdown", "twig", "service", "provider"],
+	"homepage": "http://github.com/thispagecannotbefound/SilexMarkdownParser",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Abel de Beer",
+			"email": "abel@thispagecannotbefound.com",
+			"homepage": "http://thispagecannotbefound.com"
+		}
+	],
+	"require": {
+		"michelf/php-markdown": ">=1.4",
+		"silex/silex": "1.*"
+	},
+	"suggest": {
+		"twig/twig": "enables parsing markdown right from the template using simple filter"
+	},
+	"autoload": {
+		"psr-0": {"ThisPageCannotBeFound": "src/"}
+	}
+}
